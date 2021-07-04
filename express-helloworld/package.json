@@ -1,13 +1,17 @@
 {
   "name": "express-helloworld",
   "version": "1.0.0",
-  "description": "redhat-tutorial",
-  "main": "helloworld.js",
+  "description": "A simple hello world Express/NodeJS application",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./helloworld.js"
+    "start": "node app.js"
   },
-  "author": "Josue",
+  "keywords": [
+    "node",
+    "express",
+    "nodejs",
+    "hello-world"
+  ],
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
